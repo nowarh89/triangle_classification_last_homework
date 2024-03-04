@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-01T13:19:25Z" name="Surefire suite" finished-at="2024-03-01T13:19:37Z" duration-ms="12166">
+  <suite started-at="2024-03-04T14:47:24Z" name="Surefire suite" finished-at="2024-03-04T14:49:17Z" duration-ms="113061">
     <groups>
     </groups>
-    <test started-at="2024-03-01T13:19:25Z" name="Surefire test" finished-at="2024-03-01T13:19:37Z" duration-ms="12166">
+    <test started-at="2024-03-04T14:47:24Z" name="Surefire test" finished-at="2024-03-04T14:49:17Z" duration-ms="113061">
       <class name="Selleniun_start_projects.Selleniun_start_projects.AppTest">
-        <test-method signature="equilateralTriangle()[pri:0, instance:equilateralTriangle(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-01T15:19:25Z" name="equilateralTriangle" finished-at="2024-03-01T15:19:37Z" duration-ms="12000" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:Test1(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:47:24Z" name="Test1" finished-at="2024-03-04T16:47:27Z" duration-ms="3311" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- equilateralTriangle -->
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:Test2(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:47:27Z" name="Test2" finished-at="2024-03-04T16:47:30Z" duration-ms="2954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:Test3(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:47:30Z" name="Test3" finished-at="2024-03-04T16:47:34Z" duration-ms="4564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4()[pri:0, instance:Test4(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:47:34Z" name="Test4" finished-at="2024-03-04T16:47:39Z" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test5()[pri:0, instance:Test5(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:47:39Z" name="Test5" finished-at="2024-03-04T16:47:47Z" duration-ms="8032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method signature="Test6()[pri:0, instance:Test6(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:47:47Z" name="Test6" finished-at="2024-03-04T16:48:00Z" duration-ms="12573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method signature="Test7()[pri:0, instance:Test7(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:48:00Z" name="Test7" finished-at="2024-03-04T16:48:52Z" duration-ms="52152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7 -->
+        <test-method signature="Test8()[pri:0, instance:Test8(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:48:52Z" name="Test8" finished-at="2024-03-04T16:49:14Z" duration-ms="21782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8 -->
+        <test-method signature="Test9()[pri:0, instance:Test9(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-04T16:49:14Z" name="Test9" finished-at="2024-03-04T16:49:17Z" duration-ms="3113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9 -->
       </class> <!-- Selleniun_start_projects.Selleniun_start_projects.AppTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

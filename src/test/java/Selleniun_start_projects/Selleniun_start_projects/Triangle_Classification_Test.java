@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class AppTest {
+public class Triangle_Classification_Test {
 	
 	static WebDriver  browser;
 	 

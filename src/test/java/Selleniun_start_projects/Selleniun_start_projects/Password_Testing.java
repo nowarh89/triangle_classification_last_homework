@@ -66,35 +66,35 @@ public class Password_Testing {
   }
 	@Test
 	public void test4() {
-   	
+   	//במקרה של אותיות לא מתאימות
 			WebElement textBox = browser.findElement(By.name("characters"));
-			textBox.sendKeys("Nowarh1!)");
+			textBox.sendKeys("Nowar1!)");
 	        WebElement button = browser.findElement(By.name("validate"));
 	        button.click();
-	        String actualResult = (String) ((JavascriptExecutor) browser).executeScript("return document.getElementsByName('validation_message')[0].value");
+	        String actualResult = browser.findElement(By.name("validation_message")).getAttribute("value");
 	        assertEquals("Invalid Value", actualResult);
 	        browser.close();
    }
 	@Test
 	public void test5() {
-   	
+	   	//במקרה של אותיות לא מתאימות
 			WebElement textBox = browser.findElement(By.name("characters"));
 			textBox.sendKeys("Lkgg%11");
 	        WebElement button = browser.findElement(By.name("validate"));
 	        button.click();
-	        String actualResult = (String) ((JavascriptExecutor) browser).executeScript("return document.getElementsByName('validation_message')[0].value");
+	        String actualResult = browser.findElement(By.name("validation_message")).getAttribute("value");
 	        assertEquals("Invalid Value", actualResult);
 	        browser.close();
 
    }
 	@Test
 	public void test6() {
-   	
+	   	//במקרה של אותיות לא מתאימות
 			WebElement textBox = browser.findElement(By.name("characters"));
 			textBox.sendKeys("@@ahmad");
 	        WebElement button = browser.findElement(By.name("validate"));
 	        button.click();
-	        String actualResult = (String) ((JavascriptExecutor) browser).executeScript("return document.getElementsByName('validation_message')[0].value");
+	        String actualResult = browser.findElement(By.name("validation_message")).getAttribute("value");
 	        assertEquals("Invalid Value", actualResult);
 	        browser.close();
 
